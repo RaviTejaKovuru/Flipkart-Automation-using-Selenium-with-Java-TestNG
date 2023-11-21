@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false"  name="Flipkart-Suite">
+  <test name="Flipkart-Test">
+    <classes>
+		<!-- Program 1: Homepage_and_Navigations -->
+            <class name="Flipkart_Application.Homepage_and_Navigations">
+                <methods>
+                    <include name="Homepage_and_Navigations_Check"/>
+                </methods>
+            </class>
+            
+      <!-- Program 2: Login_Functionality -->
+            <class name="Flipkart_Application.Login_Functionality">
+                <methods>
+                    <include name="Login_Functionality_Check"/>
+                </methods>
+            </class>
+            
+            
+       <!-- Program 3: Checkout_Process_Through_Invalid_Mobile_Number -->
+            <class name="Flipkart_Application.Checkout_Process_Through_Invalid_Mobile_Number">
+                <methods>
+                    <include name="Checkout_Process_Via_Invalid_Mobile_Number"/>
+                </methods>
+            </class>
+            
+       <!-- Program 4: Product_Search_And_Add_To_Cart -->
+            <class name="Flipkart_Application.Product_Search_through_Search_Bar">
+                <methods>
+                    <include name="Product_Search_And_Add_To_Cart_Check"/>
+                </methods>
+            </class>
+             
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
